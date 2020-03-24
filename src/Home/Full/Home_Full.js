@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 
+import Navbar from "./Navbar/Navbar.js";
+import About from "./About.js";
+import Facts from "./Facts.js";
+import Achievment from "./Achievment.js";
+
 import "./Home_Full.css";
 
 import RandyProfiel from "C:/Users/Berkk/Desktop/Programmieren/randy_website/src/image/Randy_Profiel.jpg";
@@ -7,28 +12,19 @@ import Ronaldo from "C:/Users/Berkk/Desktop/Programmieren/randy_website/src/imag
 
 import Fade from "react-reveal/Fade";
 
+import ScrollableAnchor from "react-scrollable-anchor";
+
 class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <div className="BackgroundImg">
-          <img src={Ronaldo} alt="Ronaldo Background" />
-          <div className="Blur"></div>
-        </div>
-        <div className="NavBar"></div>
+        <img src={Ronaldo} alt="Ronaldo Background" />
+        <Navbar></Navbar>
         <div className="bodyContainer">
-          <div className="About">
-            <div className="AboutUpperContainer"></div>
-            <div className="AboutText"></div>
-          </div>
-          <div className="Facts">
-            <div className="InterestingFacts"></div>
-            <div className="Skills"></div>
-          </div>
-          <div className="Achievment">
-            <div className="Education"></div>
-            <div className="FussballKariere"></div>
-          </div>
+          <About></About>
+          <Facts></Facts>
+          <Achievment></Achievment>
+
           <div className="Galerie"></div>
         </div>
         <div className="Contact"></div>
