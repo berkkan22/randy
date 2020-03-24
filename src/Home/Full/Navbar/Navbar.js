@@ -8,6 +8,7 @@ class Navbar extends Component {
       <div className="Navbar">
         <ul>
           <li>
+              {/* TODO: focus on page loaded */}
             <a href="#about">About</a>
           </li>
           <li>

@@ -1,0 +1,64 @@
+.About {
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+
+.AboutUpperContainer {
+  width: 100%;
+  height: auto;
+  padding-top: 35px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+  margin-bottom: 70px;
+  background-color: #343434;
+}
+
+.left {
+  float: left;
+  width: 57%;
+}
+
+.Name {
+  color: #d4d4d4;
+  padding-bottom: 15px;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.Job {
+  color: #d4d4d4;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+.Short {
+  border-bottom: 2px solid #888888;
+  width: fit-content;
+  padding-bottom: 20px;
+}
+
+.right {
+  float: right;
+  width: 37%;
+  margin-right: 40px;
+}
+
+.ProfielBild {
+  -webkit-filter: opacity(1);
+  filter: opacity(1);
+}
+
+.clear {
+  clear: both;
+}
+
+.AboutText {
+  width: 100%;
+  height: auto;
+}
+
+.Text {
+  text-align: center;
+  color: #d4d4d4;
+}
