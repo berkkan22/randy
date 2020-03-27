@@ -1,0 +1,21 @@
+/* .outerContainer {
+    margin-top: 40px;
+} */
+
+.firstContainer{
+    float: left;
+    margin-right: 10%;
+    padding-right: 4%;
+    border-bottom: 3px solid #343434;
+}
+
+
+.Number {
+    color: #00b719;
+    font-size: 50px;
+}
+
+.title {
+    color: #888888;
+    font-size: 20px;
+}

@@ -20,6 +20,9 @@ img {
 }
 
 .bodyContainer {
-  margin-top: -425px;
+  margin-top: -435px;
   filter: opacity(1);
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }

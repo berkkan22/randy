@@ -3,7 +3,7 @@
   z-index: 2;
   width: auto;
   top: 0px;
-  right: 7%;
+  margin-left: 52%;
 }
 
 .Navbar ul {
@@ -44,4 +44,9 @@
 
 .Navbar a:hover::before {
   width: 100%;
+}
+
+Instagram {
+  height: 40px;
+  width: 40px;
 }

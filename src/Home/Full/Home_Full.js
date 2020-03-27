@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import Navbar from "./Navbar/Navbar.js";
 import About from "./About/About.js";
-import Facts from "./Facts.js";
+import Facts from "./Facts/Facts.js";
 import Achievment from "./Achievment.js";
 
 import "./Home_Full.css";

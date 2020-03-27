@@ -1,0 +1,14 @@
+tr {
+    height: 32px;
+  }
+  
+  .tabel .first{
+    color: #d4d4d4;
+    font-weight: lighter;
+    padding-right: 30px;
+  }
+  
+  .tabel .second {
+    color: #afafaf;
+    font-weight: lighter;
+  }
