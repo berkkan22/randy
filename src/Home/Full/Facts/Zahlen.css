@@ -1,12 +1,10 @@
-/* .outerContainer {
-    margin-top: 40px;
-} */
-
 .firstContainer{
     float: left;
-    margin-right: 10%;
+    margin-right: 4vw;
+    margin-left: 4vw;
     padding-right: 4%;
     border-bottom: 3px solid #343434;
+    padding-bottom: 5px;
 }
 
 

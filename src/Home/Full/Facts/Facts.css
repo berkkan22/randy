@@ -3,17 +3,20 @@
   width: 100%;
 }
 
-.Facts h1 {
+/* .Facts h1 {
   text-align: center;
   color: #d4d4d4;
   margin-bottom: 40px;
-}
+} */
 
 .clear {
   clear: both;
 }
 
 .Zahlen {
+  width: 100%;
+  margin: auto;
+
   margin-bottom: 55px;
 }
 

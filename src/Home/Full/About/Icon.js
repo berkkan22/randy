@@ -16,6 +16,8 @@ export default class Icon extends Component {
       case "Facebook":
         return <Facebook className="Facebook"/>;
         break;
+      default:
+        return  <p>Image not founded</p>
     }
   }
 }

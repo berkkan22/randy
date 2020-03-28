@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import "./Navbar.css";
 
 class Navbar extends Component {
@@ -15,7 +14,7 @@ class Navbar extends Component {
             <a href="#facts">Facts</a>
           </li>
           <li>
-            <a href="#achievment">Achievmetn</a>
+            <a href="#achievment">Achievment</a>
           </li>
           <li>
             <a href="#galerie">Galerie</a>

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import "./About.css";
 
 import Table from "./Table.js";
@@ -12,7 +11,7 @@ class About extends Component {
     table: [
       { first: "Alter", second: 19 },
       { first: "Adresse", second: "Finkenwerder, Hamburg, Detuschland" },
-      { first: "Nummer", second: 123344567898765 }
+      { first: "Nummer", second: 123344567898765 },
     ],
     social: [
       {

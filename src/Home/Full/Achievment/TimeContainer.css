@@ -1,0 +1,42 @@
+.timeBoxOutter {
+  width: 40%;
+  height: auto;
+  display: block;
+  background-color: red;
+  padding: 15px;
+  position: relative;
+  border-top: 3px solid #00b719;
+  margin-top: -170px;
+}
+
+.dot {
+  top: 80px;
+  width: 8px;
+  height: 8px;
+  display: block;
+  position: absolute;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.dot.left {
+  /* left: 363.5px; */
+  left: 112.3%;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 25px 26px;
+  border-color: transparent transparent transparent #007bff;
+  position: absolute;
+  position: absolute;
+  left: 99.3%;
+  top: 57px;
+  z-index: -1;
+
+}
+

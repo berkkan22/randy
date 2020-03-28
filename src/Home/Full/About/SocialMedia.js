@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 import './SocialMedia.css';
 
 import Icon from './Icon.js';

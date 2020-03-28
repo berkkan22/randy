@@ -25,4 +25,11 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
+  padding-bottom: 40px;
+}
+
+.headline{
+  text-align: center;
+  color: #d4d4d4;
+  margin-bottom: 40px;
 }

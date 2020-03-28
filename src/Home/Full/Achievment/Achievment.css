@@ -1,0 +1,27 @@
+.Achievment {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.subTitle {
+    text-align: center;
+    color: #888888;
+}
+
+.timelinebar {
+    content: '';
+    width: 4px;
+    opacity: 0.2;
+    margin-left: -2px;
+    position: relative;
+    left: 50%;
+    top: 0;
+    height: 100%;
+}
+
+.education {
+    height: 200px;
+    background-color: #00b719;
+    top: 120px
+}

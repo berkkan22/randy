@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-
+import '../Home_Full.css';
 import "./Facts.css";
 
 import Zahlen from "./Zahlen.js";
@@ -25,7 +25,8 @@ class Facts extends PureComponent {
       {
         zahl: 20,
         title: "Siege",
-        icon: "Medalie"
+        icon: "Medalie",
+        show: true
       }
     ]
   };
@@ -34,15 +35,15 @@ class Facts extends PureComponent {
     return (
       <div className="Facts">
         <div className="InterestingFacts">
-          <h1>Intrestingfacts</h1>
+          <h1 className="headline">Intrestingfacts</h1>
           <div className="Zahlen">
             <Zahlen zahlen={this.state.zahlen}></Zahlen>
             <div className="clear"></div>
           </div>
         </div>
-        <div className="Skills">
+        {/* <div className="Skills">
           <h1>Skills</h1>
-        </div>
+        </div> */}
       </div>
     );
   }

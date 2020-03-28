@@ -1,16 +1,14 @@
 import React, { Component } from "react";
+import "./Home_Full.css";
 
 import Navbar from "./Navbar/Navbar.js";
 import About from "./About/About.js";
 import Facts from "./Facts/Facts.js";
-import Achievment from "./Achievment.js";
-
-import "./Home_Full.css";
+import Achievment from "./Achievment/Achievment.js";
 
 import Ronaldo from "C:/Users/Berkk/Desktop/Programmieren/randy_website/src/image/Ronaldo2.jpg";
 
 import Fade from "react-reveal/Fade";
-
 import ScrollableAnchor from "react-scrollable-anchor";
 
 class Home extends Component {
@@ -23,7 +21,6 @@ class Home extends Component {
           <About></About>
           <Facts></Facts>
           <Achievment></Achievment>
-
           <div className="Galerie"></div>
         </div>
         <div className="Contact"></div>
