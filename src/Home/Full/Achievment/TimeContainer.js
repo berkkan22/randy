@@ -3,17 +3,16 @@ import "./TimeContainer.css";
 
 export default class TimeContainer extends Component {
   render() {
-    return this.props.timeline.map(item => (
-      <div className="timeBoxOutter">
-        <span className="dot left"></span>
+    return this.props.timeline_state.map(item => (
+      <div className={"timeBoxOutter " + item.side} style={{ top: item.top }}>
+        <span className={"dot " + item.side}></span>
 
         <div className="timeBoxInner">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit esse
-          unde aspernatur mollitia quam, veritatis, corrupti aliquid architecto
-          nulla officiis autem illo. Fuga labore corrupti maiores quasi officia
-          qui delectus!
+          <p className="date">{item.date}</p>
+          <p className="titleTimeContainer">{item.title}</p>
+          <p className="subtext">{item.subtext}</p>
         </div>
-        <span className="arrow left"></span>
+        <span className={"arrow " + item.side}></span>
       </div>
     ));
   }

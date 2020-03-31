@@ -4,6 +4,7 @@
   width: auto;
   top: 0px;
   margin-left: 52%;
+  margin-bottom: 100px;
 }
 
 .Navbar ul {
@@ -38,15 +39,13 @@
   transition: all ease-in-out 250ms;
 }
 
-.Navbar a:focus::before {
-    width: 100%;
-  }
+.active {
+  padding-bottom: 3px;
+  border-bottom: 4px solid #00b719;
+  transition: all ease-in-out 250ms;
+  position: relative;
+}
 
 .Navbar a:hover::before {
   width: 100%;
-}
-
-Instagram {
-  height: 40px;
-  width: 40px;
 }

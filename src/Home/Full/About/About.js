@@ -19,7 +19,7 @@ class About extends Component {
         icon: "Instagram"
       },
       {
-        href: "https://www.snapchat.com/add/x22gamerx",
+        href: "https://www.snapchat.com/add/randylt-7",
         icon: "Snapchat"
       },
       {
@@ -33,7 +33,7 @@ class About extends Component {
     return (
       <div className="About">
         <div className="AboutUpperContainer">
-          <div className="left">
+          <div className="leftContainer">
             <div className="NameUndArbeit">
               <h1 className="Name">
                 Randy Luther <br /> Forther Tangohong
@@ -52,7 +52,7 @@ class About extends Component {
               </div>
             </div>
           </div>
-          <div className="right">
+          <div className="rightContainer">
             <img className="ProfielBild" src={RandyProfiel} alt="" />
           </div>
           <div className="clear"></div>

@@ -9,6 +9,14 @@
     color: #888888;
 }
 
+.TimeContainerEducation{
+    margin-top: 40px;
+}
+
+.TimeContainerCareer{
+    margin-top: 40px;
+}
+
 .timelinebar {
     content: '';
     width: 4px;
@@ -21,7 +29,13 @@
 }
 
 .education {
-    height: 200px;
+    height: 157px;
     background-color: #00b719;
-    top: 120px
+    top: 92px;
+}
+
+.career {
+    height: 157px;
+    background-color: #00b719;
+    top: 92px;
 }

@@ -1,16 +1,26 @@
 .timeBoxOutter {
   width: 40%;
+  min-height: 100px;
   height: auto;
   display: block;
-  background-color: red;
+  background-color: #757575;
   padding: 15px;
   position: relative;
   border-top: 3px solid #00b719;
+
+  box-shadow: 2px 2px 19px black;
+}
+
+.timeBoxOutter.left {
   margin-top: -170px;
 }
 
+.timeBoxOutter.right {
+  margin-left: 411.5px;
+}
+
 .dot {
-  top: 80px;
+  top: 61px;
   width: 8px;
   height: 8px;
   display: block;
@@ -18,7 +28,7 @@
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-color: blue;
+  background-color: #00b719;
 }
 
 .dot.left {
@@ -26,17 +36,59 @@
   left: 112.3%;
 }
 
+.dot.right {
+  right: 112.3%;
+}
+
 .arrow {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 25px 0 25px 26px;
-  border-color: transparent transparent transparent #007bff;
-  position: absolute;
-  position: absolute;
-  left: 99.3%;
-  top: 57px;
-  z-index: -1;
-
+  top: 30%;
+  z-index: 0;
 }
 
+.arrow.left {
+  border-width: 25px 0 25px 26px;
+  border-color: transparent transparent transparent #757575;
+  position: absolute;
+  left: 99.3%;
+}
+
+.arrow.right {
+  border-width: 25px 26px 25px 0;
+  border-color: transparent #757575 transparent transparent;
+  position: absolute;
+  right: 99.3%;
+}
+
+.FussballKariere{
+  margin-top: 125px;
+}
+
+.timeBoxInner {
+  margin-left: 10px;
+}
+
+p .timeBoxInner {
+  margin-bottom: 10px;
+}
+
+
+.date{
+  color: #00b719;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.titleTimeContainer {
+  color: #d4d4d4;
+  font-size: 25px;
+  margin-bottom: 2px;
+}
+
+.subtext{
+  color: #cccccc;
+  font-size: 16px;
+}
