@@ -12,14 +12,7 @@ import Galerie from "./Galerie/Galerie.js";
 import Ronaldo from "C:/Users/Berkk/Desktop/Programmieren/randy_website/src/image/Ronaldo2.jpg";
 
 import Fade from "react-reveal/Fade";
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller
-} from "react-scroll";
+import { Element } from "react-scroll";
 
 class Home extends Component {
   state = {

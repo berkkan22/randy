@@ -1,16 +1,7 @@
 import React, { Component } from "react";
 import "./Navbar.css";
 
-// ES6 Imports
-import * as Scroll from "react-scroll";
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller
-} from "react-scroll";
+import { Link } from "react-scroll";
 
 class Navbar extends Component {
   render() {
