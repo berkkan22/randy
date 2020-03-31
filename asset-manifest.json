@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/randy/static/css/main.81881d6b.chunk.css",
+    "main.js": "/randy/static/js/main.c1a03990.chunk.js",
+    "main.js.map": "/randy/static/js/main.c1a03990.chunk.js.map",
+    "runtime-main.js": "/randy/static/js/runtime-main.374eb09c.js",
+    "runtime-main.js.map": "/randy/static/js/runtime-main.374eb09c.js.map",
+    "static/css/2.40a775a0.chunk.css": "/randy/static/css/2.40a775a0.chunk.css",
+    "static/js/2.a82587c4.chunk.js": "/randy/static/js/2.a82587c4.chunk.js",
+    "static/js/2.a82587c4.chunk.js.map": "/randy/static/js/2.a82587c4.chunk.js.map",
+    "index.html": "/randy/index.html",
+    "precache-manifest.929aacdf4fbfed10e1e9733b7bddb0e1.js": "/randy/precache-manifest.929aacdf4fbfed10e1e9733b7bddb0e1.js",
+    "service-worker.js": "/randy/service-worker.js",
+    "static/css/2.40a775a0.chunk.css.map": "/randy/static/css/2.40a775a0.chunk.css.map",
+    "static/css/main.81881d6b.chunk.css.map": "/randy/static/css/main.81881d6b.chunk.css.map",
+    "static/js/2.a82587c4.chunk.js.LICENSE.txt": "/randy/static/js/2.a82587c4.chunk.js.LICENSE.txt",
+    "static/media/Randy_Profiel.jpg": "/randy/static/media/Randy_Profiel.668a1b60.jpg",
+    "static/media/Ronaldo2.jpg": "/randy/static/media/Ronaldo2.aea8acaf.jpg",
+    "static/media/facebook-f.885324f9.svg": "/randy/static/media/facebook-f.885324f9.svg",
+    "static/media/instagram.2b349fa9.svg": "/randy/static/media/instagram.2b349fa9.svg",
+    "static/media/snapchat.c93da7fe.svg": "/randy/static/media/snapchat.c93da7fe.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.374eb09c.js",
+    "static/css/2.40a775a0.chunk.css",
+    "static/js/2.a82587c4.chunk.js",
+    "static/css/main.81881d6b.chunk.css",
+    "static/js/main.c1a03990.chunk.js"
+  ]
+}
