@@ -1,3 +1,4 @@
+/*
 .timeBoxOutter {
   max-width: 18vw;
   min-width: 250px;
@@ -33,7 +34,7 @@
 }
 
 .dot.left {
-  /* left: 363.5px; */
+  left: 363.5px;
   left: 112.3%;
 }
 
@@ -92,4 +93,71 @@ p .timeBoxInner {
 .subtext{
   color: #cccccc;
   font-size: 16px;
+}
+
+*/
+
+.timeBoxContainerOutter {
+  min-width: 250px;
+  max-width: 27vw;
+  min-height: 100px;
+  height: auto;
+  background-color: #5a5a5a;
+  margin-bottom: 15px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  display: block;
+  position: absolute;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #00b719;
+  left: 50%;
+  margin-left: -4px;
+
+  /* top: 46px */
+}
+
+.timeContainerInner {
+  width: 100%;
+  height: auto;
+  /* background-color: cyan; */
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  display: block;
+  border-style: solid;
+  border-width: 25px 0 26px 25px;
+  border-color: transparent transparent transparent #007bff;
+  position: absolute;
+  left: 45%;
+
+  /* Anpassen auf die höhe des containers da es durch
+  die Schrieftgröße ändern kann
+   */
+  /* top: 25px; */
+}
+
+.timeTextInner {
+  padding: 10px;
+}
+
+.timeTextInner .date {
+  color: #00b719;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.timeTextInner .titleTimeContainer {
+  color: #d4d4d4;
+  font-size: 30px;
+}
+
+.timeTextInner .subtext {
+  color: #d4d4d4;
 }

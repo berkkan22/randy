@@ -1,41 +1,42 @@
 .Achievment {
-    width: 100%;
-    height: auto;
-    margin-bottom: 40px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
 }
 
 .subTitle {
-    text-align: center;
-    color: #888888;
+  text-align: center;
+  color: #888888;
 }
 
-.TimeContainerEducation{
-    margin-top: 40px;
+.TimeContainerEducation {
+  position: relative;
+  top: -113px;
 }
 
-.TimeContainerCareer{
-    margin-top: 40px;
+.TimeContainerCareer {
+  margin-top: 40px;
 }
 
 .timelinebar {
-    content: '';
-    width: 4px;
-    opacity: 0.2;
-    margin-left: -2px;
-    position: relative;
-    left: 50%;
-    top: 0;
-    height: 100%;
+  content: "";
+  width: 4px;
+  opacity: 0.2;
+  margin-left: -2px;
+  position: relative;
+  left: 50%;
+  /* top: 0; */
+  height: 100%;
 }
 
 .education {
-    height: 157px;
-    background-color: #00b719;
-    top: 92px;
+  height: 157px;
+  background-color: #00b719;
+  top: 92px;
 }
 
 .career {
-    height: 157px;
-    background-color: #00b719;
-    top: 92px;
+  height: 157px;
+  background-color: #00b719;
+  top: 92px;
 }

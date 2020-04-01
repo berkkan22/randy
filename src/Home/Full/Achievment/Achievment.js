@@ -69,7 +69,7 @@ export default class Acievment extends Component {
             ></TimeContainer>
           </div>
         </div>
-        <div className="FussballKariere">
+        {/* <div className="FussballKariere">
           <h2 className="subTitle">Career</h2>
           <div className="timelinebar career"></div>
           <div className="TimeContainerCareer">
@@ -77,7 +77,7 @@ export default class Acievment extends Component {
               timeline_state={this.state.timeline_career}
             ></TimeContainer>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }
