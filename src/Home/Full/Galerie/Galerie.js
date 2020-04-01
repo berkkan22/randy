@@ -4,7 +4,7 @@ import "./Galerie.css";
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from "react-image-gallery";
 
-import RandyProfiel from "C:/Users/Berkk/Desktop/Programmieren/randy_website/src/image/Randy_Profiel.jpg";
+import RandyProfiel from "../../../image/Randy_Profiel.jpg";
 
 export default class Galerie extends Component {
   render() {

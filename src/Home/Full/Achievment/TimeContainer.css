@@ -1,5 +1,6 @@
 .timeBoxOutter {
-  width: 40%;
+  max-width: 18vw;
+  min-width: 250px;
   min-height: 100px;
   height: auto;
   display: block;

@@ -9,7 +9,7 @@ import SocialMedia from "./About/SocialMedia.js";
 import Contact from "./Contact/Contact.js";
 import Galerie from "./Galerie/Galerie.js";
 
-import Ronaldo from "C:/Users/Berkk/Desktop/Programmieren/randy_website/src/image/Ronaldo2.jpg";
+import Ronaldo from "../../image/Ronaldo2.jpg";
 
 import Fade from "react-reveal/Fade";
 import { Element } from "react-scroll";
@@ -57,6 +57,7 @@ class Home extends Component {
           <Navbar></Navbar>
         </header>
         <img className="BackImg" src={Ronaldo} alt="Ronaldo Background" />
+        <div className="baackgroundColor"></div>
         <div className="bodyContainer">
           <Element name="about" className="element">
             <About></About>

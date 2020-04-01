@@ -4,7 +4,7 @@ import "./About.css";
 import Table from "./Table.js";
 import SocialMedia from "./SocialMedia.js";
 
-import RandyProfiel from "C:/Users/Berkk/Desktop/Programmieren/randy_website/src/image/Randy_Profiel.jpg";
+import RandyProfiel from "../../../image/Randy_Profiel.jpg";
 
 class About extends Component {
   state = {

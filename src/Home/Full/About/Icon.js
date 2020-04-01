@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
-import { ReactComponent as Instagram } from "C:/Users/Berkk/Desktop/Programmieren/randy_website/src/icons/instagram.svg";
-import { ReactComponent as Facebook } from "C:/Users/Berkk/Desktop/Programmieren/randy_website/src/icons/facebook-f.svg";
-import { ReactComponent as Snapchat } from "C:/Users/Berkk/Desktop/Programmieren/randy_website/src/icons/snapchat.svg";
+import { ReactComponent as Instagram } from "../../../icons/instagram.svg";
+import { ReactComponent as Facebook } from "../../../icons/facebook-f.svg";
+import { ReactComponent as Snapchat } from "../../../icons/snapchat.svg";
 
 export default class Icon extends Component {
   render() {

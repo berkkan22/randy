@@ -62,6 +62,8 @@ export default class Acievment extends Component {
           <h2 className="subTitle">Education</h2>
           <div className="timelinebar education"></div>
           <div className="TimeContainerEducation">
+
+            {/* TODO: Anpassen damit man es leichter hat responsiv zu machen */}
             <TimeContainer
               timeline_state={this.state.timeline_education}
             ></TimeContainer>

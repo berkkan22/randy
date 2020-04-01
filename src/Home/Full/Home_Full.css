@@ -15,6 +15,14 @@ img {
   display: block;
 }
 
+.baackgroundColor {
+  width: 100%;
+  height: 20vw;
+  background-color: #424242;
+  position: absolute;
+  top: 72vh;
+}
+
 .BackImg {
   -webkit-filter: opacity(0.4);
   z-index: 0;
