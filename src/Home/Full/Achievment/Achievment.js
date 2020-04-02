@@ -12,21 +12,21 @@ export default class Acievment extends Component {
         title: "Abitur",
         subtext: "Am Gynmasium Finkenwerder",
         side: "left",
-        top: 0
+        // top: 0
       },
       {
         date: 2019,
         title: "Abitur",
         subtext: "Am Gynmasium Finkenwerder",
         side: "right",
-        top: -100
+        // top: -100
       },
       {
         date: 2019,
         title: "Abitur",
         subtext: "Am Gynmasium Finkenwerder",
         side: "left",
-        top: 60
+        // top: 60
       }
     ],
     timeline_career: [

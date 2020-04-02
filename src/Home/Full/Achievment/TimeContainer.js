@@ -15,8 +15,8 @@ export default class TimeContainer extends Component {
       //   <span className={"arrow " + item.side}></span>
       // </div>
 
-      <div className="timeBoxContainerOutter">
-        <span className="dot"></span>
+      <div className={"timeBoxContainerOutter " + item.side}>
+        <span className={"dot " + item.side}></span>
         <div className="timeContainerInner">
           <span className="arrow"></span>
           <div className="timeTextInner">

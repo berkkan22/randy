@@ -106,6 +106,14 @@ p .timeBoxInner {
   margin-bottom: 15px;
 }
 
+.timeBoxContainerOutter .left {
+  float: left;
+}
+
+.timeBoxContainerOutter .right {
+  float: right;
+}
+
 .dot {
   width: 8px;
   height: 8px;
@@ -115,16 +123,19 @@ p .timeBoxInner {
   -moz-border-radius: 50%;
   border-radius: 50%;
   background-color: #00b719;
+  margin-top: 46px;
   left: 50%;
   margin-left: -4px;
+}
 
-  /* top: 46px */
+.dot .left {
 }
 
 .timeContainerInner {
   width: 100%;
   height: auto;
   /* background-color: cyan; */
+  position: relative;
 }
 
 .arrow {
@@ -135,12 +146,12 @@ p .timeBoxInner {
   border-width: 25px 0 26px 25px;
   border-color: transparent transparent transparent #007bff;
   position: absolute;
-  left: 45%;
+  left: 100%;
 
   /* Anpassen auf die höhe des containers da es durch
   die Schrieftgröße ändern kann
    */
-  /* top: 25px; */
+  top: 25px;
 }
 
 .timeTextInner {
