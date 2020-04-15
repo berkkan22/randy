@@ -14,7 +14,7 @@
 }
 
 .Zahlen {
-  width: 100%;
+  width: fit-content;
   margin: auto;
 
   margin-bottom: 55px;

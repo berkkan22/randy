@@ -3,18 +3,42 @@
   margin-bottom: 10px;
 } */
 
+td {
+  vertical-align: top;
+  display: table-cell;
+  margin-right: 35px;
+  padding-right: 40px;
+}
+
 table {
   border-collapse: separate;
   border-spacing: 0 1em;
 }
 
-.tabel .first {
+.first {
   color: #d4d4d4;
-  font-weight: lighter;
+  font-weight: 500;
   padding-right: 30px;
 }
 
-.tabel .second {
+.second {
   color: #afafaf;
-  font-weight: lighter;
+  font-weight: normal;
 }
+
+.second {
+  padding-right: 0px;
+}
+
+@media only screen and (max-width: 747px) {
+  .first {
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+}
+
+/* @media only screen and (max-width: 316px) {
+  .first {
+    font-weight: bold;
+  }
+} */

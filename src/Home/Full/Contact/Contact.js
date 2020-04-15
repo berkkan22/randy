@@ -9,8 +9,8 @@ export default class Contact extends Component {
       { first: "Alter", second: 19 },
       { first: "Adresse", second: "Finkenwerder, Hamburg, Detuschland" },
       { first: "Nummer", second: 123344567898765 },
-      { first: "Email", second: "berkkan22@gmail.com" }
-    ]
+      { first: "Email", second: "berkkan22@gmail.com" },
+    ],
   };
 
   render() {
@@ -21,17 +21,26 @@ export default class Contact extends Component {
           <div className="form">
             <div className="forminner">
               <p className="subTitleContact">Write me!</p>
+
+              {/* TODO: vllt animation das placeholder nach oben wnadert */}
               <form action="" method="post">
-                <input type="text" className="formName" placeholder="Name" />
-                <input type="email" className="formEmail" placeholder="Email" />
+                <input type="text" className="formName fo" placeholder="Name" />
+                <input
+                  type="email"
+                  className="formEmail fo"
+                  placeholder="Email"
+                />
                 <textarea
-                  className="message"
+                  className="message fo"
                   name="Message"
                   id="message"
                   cols="30"
                   rows="5"
+                  placeholder="Message"
                 ></textarea>
-                <button className="send">Send</button>
+                <div className="sendBtn">
+                  <button className="send">Send</button>
+                </div>
               </form>
             </div>
           </div>
@@ -43,7 +52,7 @@ export default class Contact extends Component {
             </div>
             <div className="map">
               <iframe
-                width=""
+                width="100%"
                 height="300"
                 src="https://maps.google.de/maps?hl=de&q=%20Dwarspriel+6+%20Hamburg&t=&z=14&ie=utf8&iwloc=b&output=embed"
                 frameborder="0"

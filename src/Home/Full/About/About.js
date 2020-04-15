@@ -33,10 +33,13 @@ class About extends Component {
     return (
       <div className="About">
         <div className="AboutUpperContainer">
+          <div className="rightContainer">
+            <img className="ProfielBild" src={RandyProfiel} alt="" />
+          </div>
           <div className="leftContainer">
             <div className="NameUndArbeit">
               <h1 className="Name">
-                Randy Luther <br /> Forther Tangohong
+                Randy Luther <br /> Fountuoh Tangohong
               </h1>
               <h2 className="Job">Arbeitslos</h2>
             </div>
@@ -51,9 +54,6 @@ class About extends Component {
                 <SocialMedia socialIcons={this.state.social}></SocialMedia>
               </div>
             </div>
-          </div>
-          <div className="rightContainer">
-            <img className="ProfielBild" src={RandyProfiel} alt="" />
           </div>
           <div className="clear"></div>
         </div>

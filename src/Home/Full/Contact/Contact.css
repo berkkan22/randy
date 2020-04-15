@@ -3,29 +3,37 @@
   height: auto;
   margin-top: 40px;
   margin-bottom: 40px;
+  color: #ffffff;
 }
 
 .ContactBodyInner {
-  background-color: beige;
+  /* background-color: #343434; */
 }
 
 .form {
-  width: 50%;
+  width: 48%;
   height: auto;
   float: left;
   clear: both;
   padding-top: 20px;
   padding-bottom: 20px;
+
+  background-color: #343434;
+  -webkit-box-shadow: 6px 7px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 6px 7px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 6px 7px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
 .forminner {
   width: 90%;
+  height: max-content;
   margin-left: auto;
   margin-right: auto;
 }
 
 .subTitleContact {
   text-align: center;
+  font-size: 26px;
 }
 
 .formName {
@@ -46,15 +54,34 @@
   margin-bottom: 15px;
 }
 
+.sendBtn{
+  width: 50%;
+}
+
 .send {
   width: 100%;
-  height: 30px;
+  height: 52px;
+  background-color: #00b719;
+  border: 0;
+  border-radius: 11px;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.send:hover {
+  background-color: #009113;
 }
 
 .infoContact {
-  width: 50%;
+  width: 48%;
   height: auto;
   float: right;
+
+  background-color: #343434;
+  -webkit-box-shadow: 6px 7px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 6px 7px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 6px 7px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
 .infoShort {
@@ -64,7 +91,6 @@
   margin-right: auto;
   padding-top: 25px;
   padding-bottom: 30px;
-  color: black;
 }
 
 .tabelContact td {
@@ -72,34 +98,72 @@
 }
 
 .map {
-  width: fit-content;
+  width: 94%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
 }
 
-
-.forminner input, textarea {
+.forminner input,
+textarea {
   display: inline-block;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   padding: 10px 20px;
   border: 0 solid #b7b7b7;
-  border-bottom: 2px solid #00f72d;
+  border-bottom: 2px solid #8a8a8a;
   -webkit-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
-  font: normal 16px/normal "Times New Roman", Times, serif;
-  color: rgba(0,0,0,1);
+  font: normal 16px / normal "Times New Roman", Times, serif;
+  color: #ffffff;
   -o-text-overflow: clip;
   text-overflow: clip;
-  background: rgba(252,252,252,1);
-  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+  background: #343434;
+  /* text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66); */
   -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
   -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
   -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
   transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-
   width: 90%;
+  padding-left: 2px;
+}
+
+::placeholder {
+  color: #c4c4c4;
+}
+
+.fo:focus {
+  outline: none;
+  border-bottom: 2px solid #00b719;
+}
+
+
+@media only screen and (max-width: 747px) {
+  .form {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .infoContact {
+    float: none;
+    width: 100%;
+  }
+
+
+  /* TODO: Center button  */
+  .sendBtn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media only screen and (max-width: 316px){
+  .tabelContact td {
+    display: flex;
+    width: 100%;
+  }
 }

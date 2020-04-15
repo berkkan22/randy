@@ -1,4 +1,16 @@
 .galerieContainer {
     margin-top: 100px;
     /* max-height: 442px; */
+    clear: both;
+}
+
+.ImgGallery {
+    height: 200px;
+}
+
+
+@media only screen and (max-width: 747px) {
+    .galerieContainer{
+        margin-top: 0px;
+    }
 }

@@ -12,22 +12,22 @@ export default class Acievment extends Component {
         title: "Abitur",
         subtext: "Am Gynmasium Finkenwerder",
         side: "left",
-        // top: 0
+        top: " ",
       },
       {
         date: 2019,
         title: "Abitur",
         subtext: "Am Gynmasium Finkenwerder",
         side: "right",
-        // top: -100
+        top: " platzoben",
       },
       {
         date: 2019,
         title: "Abitur",
         subtext: "Am Gynmasium Finkenwerder",
         side: "left",
-        // top: 60
-      }
+        top: " ",
+      },
     ],
     timeline_career: [
       {
@@ -35,22 +35,22 @@ export default class Acievment extends Component {
         title: "TUS",
         subtext: "Finkenwerder",
         side: "left",
-        top: 0
+        top: " ",
       },
       {
         date: 2019,
         title: "Abitur",
         subtext: "Am Gynmasium Finkenwerder",
         side: "right",
-        top: -100
+        top: " platzoben",
       },
       {
         date: 2019,
         title: "Abitur",
         subtext: "Am Gynmasium Finkenwerder",
         side: "left",
-        top: 60
-      }
+        top: " ",
+      },
     ],
   };
 
@@ -62,14 +62,14 @@ export default class Acievment extends Component {
           <h2 className="subTitle">Education</h2>
           <div className="timelinebar education"></div>
           <div className="TimeContainerEducation">
-
             {/* TODO: Anpassen damit man es leichter hat responsiv zu machen */}
             <TimeContainer
               timeline_state={this.state.timeline_education}
             ></TimeContainer>
+            <div style={{ clear: "both" }}></div>
           </div>
         </div>
-        {/* <div className="FussballKariere">
+        <div className="FussballKariere">
           <h2 className="subTitle">Career</h2>
           <div className="timelinebar career"></div>
           <div className="TimeContainerCareer">
@@ -77,7 +77,7 @@ export default class Acievment extends Component {
               timeline_state={this.state.timeline_career}
             ></TimeContainer>
           </div>
-        </div> */}
+        </div>
       </div>
     );
   }

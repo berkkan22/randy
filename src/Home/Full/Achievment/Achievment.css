@@ -12,10 +12,14 @@
 .TimeContainerEducation {
   position: relative;
   top: -113px;
+  width: 81%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .TimeContainerCareer {
-  margin-top: 40px;
+  position: relative;
+  top: -113px;
 }
 
 .timelinebar {
@@ -30,13 +34,14 @@
 }
 
 .education {
-  height: 157px;
+  height: 133px;
   background-color: #00b719;
-  top: 92px;
+  top: 67px;
 }
 
 .career {
-  height: 157px;
+  height: 133px;
   background-color: #00b719;
-  top: 92px;
+  top: 67px;
 }
+

@@ -12,25 +12,25 @@ import Galerie from "./Galerie/Galerie.js";
 import Ronaldo from "../../image/Ronaldo2.jpg";
 
 import Fade from "react-reveal/Fade";
-import { Element } from "react-scroll";
+import { Element, animateScroll as scroll } from "react-scroll";
 
 class Home extends Component {
   state = {
     social: [
       {
         href: "https://www.instagram.com/randylt_7/",
-        icon: "Instagram"
+        icon: "Instagram",
       },
       {
         href: "https://www.snapchat.com/add/x22gamerx",
-        icon: "Snapchat"
+        icon: "Snapchat",
       },
       {
         href: "https://www.facebook.com/randy.tangohong",
-        icon: "Facebook"
-      }
+        icon: "Facebook",
+      },
     ],
-    className: ""
+    className: "",
   };
 
   // Change Background from nav by scrolling
@@ -58,24 +58,26 @@ class Home extends Component {
         </header>
         <img className="BackImg" src={Ronaldo} alt="Ronaldo Background" />
         <div className="baackgroundColor"></div>
-        <div className="bodyContainer">
-          <Element name="about" className="element">
-            <About></About>
-          </Element>
-          <Element name="facts" className="element">
-            <Facts></Facts>
-          </Element>
-          <Element name="achievment" className="element">
-            <Achievment></Achievment>
-          </Element>
-          <Element name="galerie" className="element">
-            <Galerie></Galerie>
-          </Element>
-          <Element name="contactS" className="element">
-            <Contact></Contact>
-          </Element>
-          <div className="Footer">
-            <SocialMedia socialIcons={this.state.social}></SocialMedia>
+        <div className="bodyOutter">
+          <div className="bodyContainer">
+            <Element name="about" className="element">
+              <About></About>
+            </Element>
+            <Element name="facts" className="element">
+              <Facts></Facts>
+            </Element>
+            <Element name="achievment" className="element">
+              <Achievment></Achievment>
+            </Element>
+            <Element name="galerie" className="element">
+              <Galerie></Galerie>
+            </Element>
+            <Element name="contactS" className="element">
+              <Contact></Contact>
+            </Element>
+            <div className="Footer">
+              <SocialMedia socialIcons={this.state.social}></SocialMedia>
+            </div>
           </div>
         </div>
       </div>

@@ -1,4 +1,19 @@
 .App {
   width: 100%;
   height: auto;
+  /* overflow-x: hidden; */
+  position: absolute;
+}
+
+.ToTop{
+  position: fixed;
+  background-color: red;
+  bottom: 50px;
+  right: 30px;
+}
+
+@media only screen and (max-width: 595px){
+  .App {
+    overflow-x: hidden;
+  }
 }

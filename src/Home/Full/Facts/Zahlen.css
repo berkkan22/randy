@@ -1,12 +1,17 @@
 .firstContainer{
     float: left;
-    margin-right: 4vw;
-    margin-left: 4vw;
-    padding-right: 4%;
-    border-bottom: 3px solid #343434;
+    margin-right: 3vw;
+    /* margin-left: 4vw; */
+    /* padding-right: 4%; */
     padding-bottom: 5px;
 }
 
+.outerContainer {
+    float: left;
+    border-bottom: 3px solid #343434;
+    margin-right: 5vw;
+    /* padding-right: 3%; */
+}
 
 .Number {
     color: #00b719;
@@ -16,4 +21,16 @@
 .title {
     color: #888888;
     font-size: 20px;
+}
+
+
+@media only screen and (max-width: 360px) {
+    .outerContainer {
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .firstContainer {
+        float: none;
+    }
 }

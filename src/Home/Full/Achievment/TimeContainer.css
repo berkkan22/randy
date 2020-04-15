@@ -99,19 +99,25 @@ p .timeBoxInner {
 
 .timeBoxContainerOutter {
   min-width: 250px;
-  max-width: 27vw;
+  max-width: 43%;
+  width: 100%;
   min-height: 100px;
   height: auto;
   background-color: #5a5a5a;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  border-top: 3px solid #00b719;
 }
 
-.timeBoxContainerOutter .left {
+.timeBoxContainerOutter.left {
   float: left;
 }
 
-.timeBoxContainerOutter .right {
+.timeBoxContainerOutter.right {
   float: right;
+}
+
+.timeBoxContainerOutter.platzoben{
+  margin-top: 40px;
 }
 
 .dot {
@@ -128,9 +134,6 @@ p .timeBoxInner {
   margin-left: -4px;
 }
 
-.dot .left {
-}
-
 .timeContainerInner {
   width: 100%;
   height: auto;
@@ -143,15 +146,24 @@ p .timeBoxInner {
   height: 0;
   display: block;
   border-style: solid;
-  border-width: 25px 0 26px 25px;
-  border-color: transparent transparent transparent #007bff;
   position: absolute;
-  left: 100%;
 
   /* Anpassen auf die höhe des containers da es durch
-  die Schrieftgröße ändern kann
-   */
+  die Schriftgröße ändern kann
+  */
   top: 25px;
+}
+
+.arrow.left {
+  border-color: transparent transparent transparent #5a5a5a;
+  border-width: 25px 0 26px 25px;
+  left: 100%;
+}
+
+.arrow.right {
+  border-width: 25px 26px 25px 0;
+  border-color: transparent #5a5a5a transparent transparent;
+  right: 100%;
 }
 
 .timeTextInner {
@@ -171,4 +183,37 @@ p .timeBoxInner {
 
 .timeTextInner .subtext {
   color: #d4d4d4;
+}
+
+@media only screen and (max-width: 590px) {
+
+    /* TODO: margin-top: 40px rausnehmen in dem div style */
+  .timeBoxContainerOutter {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .timeBoxContainerOutter.left {
+    float: none;
+  }
+
+  .timeBoxContainerOutter.right {
+    float: none;
+  }
+
+  .timeBoxContainerOutter.platzoben{
+    margin-top: 0px;
+  }
+
+  .dot {
+    display: none;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  /* TODO: Carrer container nach oben ziehen und das selbe mit der unterseite ("Galerie") */
 }

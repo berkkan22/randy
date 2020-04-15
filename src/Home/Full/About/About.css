@@ -4,10 +4,11 @@
 }
 
 .AboutUpperContainer {
-  width: 100%;
+  /* width: 100%; */
   height: auto;
   padding-top: 35px;
-  padding-left: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
   padding-bottom: 25px;
   margin-bottom: 70px;
   background-color: #343434;
@@ -68,4 +69,30 @@
 
 .followMe h2 {
   color: #d4d4d4;
+}
+
+@media only screen and (max-width: 747px) {
+  .rightContainer {
+    float: none;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .leftContainer {
+    float: none;
+    width: 100%;
+  }
+
+  .NameUndArbeit {
+    text-align: center;
+    width: auto;
+  }
+
+  .tabel td {
+    vertical-align: top;
+    display: flex;
+    margin-right: 35px;
+  }
 }
