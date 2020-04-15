@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/randy/static/css/main.453432e0.chunk.css",
-    "main.js": "/randy/static/js/main.719fd95d.chunk.js",
-    "main.js.map": "/randy/static/js/main.719fd95d.chunk.js.map",
+    "main.css": "/randy/static/css/main.d9ba35ef.chunk.css",
+    "main.js": "/randy/static/js/main.4de7476f.chunk.js",
+    "main.js.map": "/randy/static/js/main.4de7476f.chunk.js.map",
     "runtime-main.js": "/randy/static/js/runtime-main.374eb09c.js",
     "runtime-main.js.map": "/randy/static/js/runtime-main.374eb09c.js.map",
     "static/css/2.40a775a0.chunk.css": "/randy/static/css/2.40a775a0.chunk.css",
-    "static/js/2.a82587c4.chunk.js": "/randy/static/js/2.a82587c4.chunk.js",
-    "static/js/2.a82587c4.chunk.js.map": "/randy/static/js/2.a82587c4.chunk.js.map",
+    "static/js/2.304cb10d.chunk.js": "/randy/static/js/2.304cb10d.chunk.js",
+    "static/js/2.304cb10d.chunk.js.map": "/randy/static/js/2.304cb10d.chunk.js.map",
     "index.html": "/randy/index.html",
-    "precache-manifest.68a35f0bf3c5d9f7032e5a018f4cd0d8.js": "/randy/precache-manifest.68a35f0bf3c5d9f7032e5a018f4cd0d8.js",
+    "precache-manifest.ed886d4994abe91b1fb04e1d3df5a475.js": "/randy/precache-manifest.ed886d4994abe91b1fb04e1d3df5a475.js",
     "service-worker.js": "/randy/service-worker.js",
     "static/css/2.40a775a0.chunk.css.map": "/randy/static/css/2.40a775a0.chunk.css.map",
-    "static/css/main.453432e0.chunk.css.map": "/randy/static/css/main.453432e0.chunk.css.map",
-    "static/js/2.a82587c4.chunk.js.LICENSE.txt": "/randy/static/js/2.a82587c4.chunk.js.LICENSE.txt",
+    "static/css/main.d9ba35ef.chunk.css.map": "/randy/static/css/main.d9ba35ef.chunk.css.map",
+    "static/js/2.304cb10d.chunk.js.LICENSE.txt": "/randy/static/js/2.304cb10d.chunk.js.LICENSE.txt",
     "static/media/Randy_Profiel.jpg": "/randy/static/media/Randy_Profiel.668a1b60.jpg",
     "static/media/Ronaldo2.jpg": "/randy/static/media/Ronaldo2.aea8acaf.jpg",
     "static/media/facebook-f.885324f9.svg": "/randy/static/media/facebook-f.885324f9.svg",
     "static/media/instagram.2b349fa9.svg": "/randy/static/media/instagram.2b349fa9.svg",
+    "static/media/scrollToTop.08b92cfd.svg": "/randy/static/media/scrollToTop.08b92cfd.svg",
     "static/media/snapchat.c93da7fe.svg": "/randy/static/media/snapchat.c93da7fe.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.374eb09c.js",
     "static/css/2.40a775a0.chunk.css",
-    "static/js/2.a82587c4.chunk.js",
-    "static/css/main.453432e0.chunk.css",
-    "static/js/main.719fd95d.chunk.js"
+    "static/js/2.304cb10d.chunk.js",
+    "static/css/main.d9ba35ef.chunk.css",
+    "static/js/main.4de7476f.chunk.js"
   ]
 }
