@@ -5,14 +5,14 @@ import "./App.css";
 // import Home from "./Home/Container/Home_Container.js";
 import Home from "./Home/Full/Home_Full.js";
 
+import { ReactComponent as ScrollToTop } from "./icons/scrollToTop.svg";
 
 import { Element, animateScroll as scroll } from "react-scroll";
 
 class App extends Component {
-
   state = {
-    className: ""
-  }
+    className: "",
+  };
 
   componentDidMount() {
     window.addEventListener("scroll", this.handleScroll);
@@ -39,7 +39,9 @@ class App extends Component {
       <div className="App">
         <Home></Home>
         <div className={this.state.className}>
-            <a onClick={this.scrollToTop}>To the top!</a>
+          <a onClick={this.scrollToTop}>
+            <ScrollToTop></ScrollToTop>
+          </a>
         </div>
       </div>
     );

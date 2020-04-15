@@ -5,14 +5,65 @@
   position: absolute;
 }
 
-.ToTop{
+.ToTop {
   position: fixed;
-  background-color: red;
   bottom: 50px;
   right: 30px;
+  z-index: 3;
+
+  border-radius: 70px;
+  height: 50px;
+  background-color: #92929299;
+
+  animation: fadein 0.7s;
+  -moz-animation: fadein 0.7s; /* Firefox */
+  -webkit-animation: fadein 0.7s; /* Safari and Chrome */
+  -o-animation: fadein 0.7s; /* Opera */
 }
 
-@media only screen and (max-width: 595px){
+ScrollToTop {
+  width: 14vw;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+@media only screen and (max-width: 595px) {
   .App {
     overflow-x: hidden;
   }
