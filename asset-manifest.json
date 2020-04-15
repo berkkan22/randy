@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/randy/static/css/main.d9ba35ef.chunk.css",
+    "main.css": "/randy/static/css/main.7f7e1b31.chunk.css",
     "main.js": "/randy/static/js/main.4de7476f.chunk.js",
     "main.js.map": "/randy/static/js/main.4de7476f.chunk.js.map",
     "runtime-main.js": "/randy/static/js/runtime-main.374eb09c.js",
@@ -9,10 +9,10 @@
     "static/js/2.304cb10d.chunk.js": "/randy/static/js/2.304cb10d.chunk.js",
     "static/js/2.304cb10d.chunk.js.map": "/randy/static/js/2.304cb10d.chunk.js.map",
     "index.html": "/randy/index.html",
-    "precache-manifest.ed886d4994abe91b1fb04e1d3df5a475.js": "/randy/precache-manifest.ed886d4994abe91b1fb04e1d3df5a475.js",
+    "precache-manifest.264d0e5a3319191ab1d95686333225d6.js": "/randy/precache-manifest.264d0e5a3319191ab1d95686333225d6.js",
     "service-worker.js": "/randy/service-worker.js",
     "static/css/2.40a775a0.chunk.css.map": "/randy/static/css/2.40a775a0.chunk.css.map",
-    "static/css/main.d9ba35ef.chunk.css.map": "/randy/static/css/main.d9ba35ef.chunk.css.map",
+    "static/css/main.7f7e1b31.chunk.css.map": "/randy/static/css/main.7f7e1b31.chunk.css.map",
     "static/js/2.304cb10d.chunk.js.LICENSE.txt": "/randy/static/js/2.304cb10d.chunk.js.LICENSE.txt",
     "static/media/Randy_Profiel.jpg": "/randy/static/media/Randy_Profiel.668a1b60.jpg",
     "static/media/Ronaldo2.jpg": "/randy/static/media/Ronaldo2.aea8acaf.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.374eb09c.js",
     "static/css/2.40a775a0.chunk.css",
     "static/js/2.304cb10d.chunk.js",
-    "static/css/main.d9ba35ef.chunk.css",
+    "static/css/main.7f7e1b31.chunk.css",
     "static/js/main.4de7476f.chunk.js"
   ]
 }
