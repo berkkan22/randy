@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de2d2a3bc064f082c35c5f01707ae4f5",
+    "revision": "3d5b363dd6fff40d2e771ab774020c17",
     "url": "/randy/index.html"
   },
   {
-    "revision": "154f522d71a4ce14c13a",
+    "revision": "aae5425b5474677756f1",
     "url": "/randy/static/css/2.40a775a0.chunk.css"
   },
   {
-    "revision": "4ed002e9c25716dae338",
+    "revision": "a662ed43adcbffabc172",
     "url": "/randy/static/css/main.d832ec25.chunk.css"
   },
   {
-    "revision": "154f522d71a4ce14c13a",
-    "url": "/randy/static/js/2.304cb10d.chunk.js"
+    "revision": "aae5425b5474677756f1",
+    "url": "/randy/static/js/2.97299e22.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/randy/static/js/2.304cb10d.chunk.js.LICENSE.txt"
+    "revision": "501f379103cbfcb5ff11211dd39a28a2",
+    "url": "/randy/static/js/2.97299e22.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4ed002e9c25716dae338",
-    "url": "/randy/static/js/main.4de7476f.chunk.js"
+    "revision": "a662ed43adcbffabc172",
+    "url": "/randy/static/js/main.3dda6fe8.chunk.js"
   },
   {
     "revision": "5899664dab5cc41edde5",
